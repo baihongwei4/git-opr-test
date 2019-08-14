@@ -19,6 +19,10 @@ import com.hongwei.git_opr_test.R
 
 class LoginActivity : AppCompatActivity() {
 
+    companion object {
+        val TAG = LoginActivity::class.java.simpleName
+    }
+
     private lateinit var loginViewModel: LoginViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
